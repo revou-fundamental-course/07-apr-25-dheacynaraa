@@ -1,0 +1,42 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header2{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: beige;
+}
+.main-logo{
+    border: 1px solid;
+    border-color: beige;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://i.pinimg.com/736x/3d/d5/a6/3dd5a6397aa87d441c46bc7d333bc9df.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.banner-img {
+    height: 200px;
+    width: 300px;
+    background-image: url(https://asset.kompas.com/crops/SxpOoy1cPpEkGyNPzNBbTLywlkQ=/205x17:858x453/750x500/data/photo/2021/07/13/60ed5b53cf277.jpg);
+    background-position: center;
+    background-size: cover;
+}
