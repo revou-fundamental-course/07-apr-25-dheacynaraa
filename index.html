@@ -32,10 +32,10 @@
         <!-- Home Section -->
         <section class="main-header2" id="home-section">
             <header>
-                <h2>Hi _, Welcome to SanSan Risoles!</h2>
-                <h2>Let's Try Awesome Taste from Our Risoles</h2>
-                <h3>Halal? Of Course, It's 100% Halal ^^</h3>
-                <h3>Come and Buy It -> Jl. Veteran 5, Gresik, Jawa Timur</h3>
+                    <h2>Hi <span id="inputName">_</span>, Welcome to SanSan Risoles!</h2>
+                    <h2>Let's Try Awesome Taste from Our Risoles</h2>
+                    <h3>Halal? Of Course, It's 100% Halal ^^</h3>
+                    <h3>Come and Buy It -> Jl. Veteran 5, Gresik, Jawa Timur</h3>
             </header>
 
             <!-- Banner Content -->
@@ -47,7 +47,24 @@
         <!-- About Us Section -->
         <section id="about-us-section"></section>
             <header>
-                <h2>About Us</h2>
+                <h2 class="judul">Why SanSan Risoles Has The Best Taste?</h2>
+                    <div class="main-header2">
+                        <div>
+                            <div class="body-img"></div>
+                            <b><p>Healthy Quality</p></b> 
+                            <p>Tentu saja bahannya berkualitas untuk kesehatan</p>
+                        </div>
+                        <div>
+                            <div class="body-img"></div>
+                            <b><p>Cheap Risoles</p></b>
+                            <p>Uda enak murah pula</p>
+                        </div>
+                        <div>
+                            <div class="body-img"></div>
+                            <b><p>Healthy Quality</p></b> 
+                            <p>Tentu saja bahannya berkualitas untuk kesehatan</p>
+                        </div>
+                    </div>
             </header>
 
         <hr/>
@@ -55,7 +72,13 @@
         <!-- Menu Section -->
         <section id="menu-section"></section>
             <header>
-                <h2>Menu</h2>
+                <h2 class="judul">Here's Some of Our Variant</h2>
+                <div class="main-header2">
+                    <div class="body-img"></div>
+                    <div class="body-img"></div>
+                    <div class="body-img"></div>
+                    <div class="body-img"></div>
+                </div>
             </header>
 
         <hr/>
@@ -65,12 +88,63 @@
             <header>
                 <h2>Contact Us</h2>
             </header>
+            
+            <form name="contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="birth-date" required>
+                </div>
+
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Femalen</label>
+                </div>
+                
+                <div>
+                    <label for="messages">Messages:</label>
+                    <textarea placeholder="Messages" id="messages" required></textarea>
+                </div>
+       
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                
+            </form>
+
+            <div id="contact-result" class="contact-result">
+                <p><strong>Current time</strong> : <span id="result-time"></span></p>
+                <p><strong>Name</strong> : <span id="result-name"></span></p>
+                <p><strong>Date of Birth</strong> : <span id="result-date"></span></p>
+                <p><strong>Gender</strong> : <span id="result-gender"></span></p>
+                <p><strong>Messages</strong> : <span id="result-messages"></span></p>
+            </div>
+
+            <div><h2>note: halo ka, maaf banget projeknya tidak saya selesaikan sesuai dengan instruksinya. saya sudah berusaha sebisa mungkin supaya selesai sebelum deadline, sekali lagi maaf ya ka</h2></div>
     </main>   
 
     <hr/>
     
     <!-- Footer Content -->
-    <footer></footer>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/dheacynaraa/">
+                <img src="./assets/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100067769470355">
+                <img src="./assets/facebook.png" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,7 @@
 .main-header2{
     display: flex;
     justify-content: space-around;
+    text-align: -webkit-center;
 }
 
 body {
@@ -39,4 +40,16 @@ nav > a {
     background-image: url(https://asset.kompas.com/crops/SxpOoy1cPpEkGyNPzNBbTLywlkQ=/205x17:858x453/750x500/data/photo/2021/07/13/60ed5b53cf277.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.judul {
+    text-align: center;
+}
+
+.body-img {
+    background-image: url(https://www.shutterstock.com/image-vector/healthy-food-icon-logo-design-260nw-629701403.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
 }
